@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - your favourite music destination</title>
+    <link rel ="stylesheet" href = "style.css">
+    
+</head>
+<body> 
+    <!-- 1. h1 -->
+    <h1 id="heading"> Welcome to Spotify </h1>
+    <!-- 1. nav bar -->
+    <nav>
+        <ul>
+            <li class="brand"><img src="bg_imgs/logo.png" alt ="Spotify">Spotify</li>
+            <li> Home </li>
+            <li> About </li>
+        </ul>
+    </nav> 
+
+    <div class = "container">
+        <div class="songList">
+        <h1 style="color: white;"> ASTROWORLD - TRAVIS SCOTT </h1> <!--  album's name -->
+        
+        <div class="songItemConatiner">
+            <div class="songItem">
+                <img src="covers/Astroworld_by_Travis_Scott.jpg" alt="1" >
+                <span class = "songName">SICKO MODE (ft. Drake)</span>
+                <span class = "songListPlay"><span class="timeStamp">05:34 <i id="0" class="far songItemPlay fa-play-circle"></i></span> </span>
+            </div>
+            <div class="songItem">
+                <img src="covers/Astroworld_by_Travis_Scott.jpg" alt="2" >
+                <span class = "songName">can't say </span>
+                <span class = "songListPlay"><span class="timeStamp">05:34 <i id="1" class="far songItemPlay fa-play-circle"></i></span> </span>
+            </div>
+            <div class="songItem">
+                <img src="covers/Astroworld_by_Travis_Scott.jpg" alt="3" >
+                <span class = "songName">No Bystanders  </span>
+                <span class = "songListPlay"><span class="timeStamp">05:34 <i id="2" class="far songItemPlay fa-play-circle"></i></span> </span>
+            </div>
+            <div class="songItem">
+                <img src="covers/Astroworld_by_Travis_Scott.jpg" alt="4" >
+                <span class = "songName">R.I.P. SCREW</span>
+                <span class = "songListPlay"><span class="timeStamp">05:34 <i id="3" class="far songItemPlay fa-play-circle"></i></span> </span>
+            </div>
+            <div class="songItem">
+                <img src="covers/Astroworld_by_Travis_Scott.jpg" alt="5" >
+                <span class = "songName">Carousel </span>
+                <span class = "songListPlay"><span class="timeStamp">05:34 <i id="4" class="far songItemPlay fa-play-circle"></i></span> </span>
+            </div>
+            <div class="songItem">
+                <img src="covers/Astroworld_by_Travis_Scott.jpg" alt="6" >
+                <span class = "songName">Butterfly Effect </span>
+                <span class = "songListPlay"><span class="timeStamp">05:34 <i id="5" class="far songItemPlay fa-play-circle"></i></span> </span>
+            </div>
+            <div class="songItem">
+                <img src="covers/Astroworld_by_Travis_Scott.jpg" alt="7" >
+                <span class = "songName">Skeletons </span>
+                <span class = "songListPlay"><span class="timeStamp">05:34 <i id="6" class="far songItemPlay fa-play-circle"></i></span> </span>
+            </div>
+            <div class="songItem">
+                <img src="covers/Astroworld_by_Travis_Scott.jpg" alt="8" >
+                <span class = "songName">STARGAZING </span>
+                <span class = "songListPlay"><span class="timeStamp">05:34 <i id="7" class="far songItemPlay fa-play-circle"></i></span> </span>
+            </div>
+            <div class="songItem">
+                <img src="covers/Astroworld_by_Travis_Scott.jpg" alt="9" >
+                <span class = "songName" >Stop Trying To Be God</span>
+                <span class = "songListPlay"><span class="timeStamp">05:34 <i id="8" class="far songItemPlay fa-play-circle"></i></span> </span>
+            </div>
+            <div class="songItem">
+                <img src="covers/Astroworld_by_Travis_Scott.jpg" alt="10" >
+                <span class = "songName">YOSEMITE (ft. Gunna & NAV)</span>
+                <span class = "songListPlay"><span class="timeStamp">05:34 <i id="9" class="far songItemPlay fa-play-circle"></i></span> </span>
+            </div>
+
+        </div>
+    </div>
+        <div class="songBanner"></div>
+    </div>
+
+
+
+    
+    <div class="bottom">
+
+
+        <!-- to bring all of this to the bottom of the page, we need to style it in style.css -->
+        <input type="range" name="range" id="myProgressBar", min = "0", value="0", max="100">
+        <!-- <input type="range>: This is an HTML input element with the type "range." It creates a slider control that allows the user to select a value within a specified range. -->
+        <div class="icons">            
+            <!-- fontawesome icons -->
+            
+            <i class="fa-solid fa-backward fa-2xl" id="previous" ></i>
+            <i class="fa-regular fa-circle-play fa-2xl"  id="masterPlay"></i>
+            <i class="fa-solid fa-forward fa-2xl" id="next" ></i>
+            
+        </div>
+
+
+
+        
+        
+        <div class="songInfo">
+            
+            <img src="playing_gif/playing-4.gif" width ="42px" alt="" id="gif"> <span id = "masterSongName">SICKO MODE (ft. Drake)</span>
+
+        </div>
+
+
+    </div>
+    <script src="https://kit.fontawesome.com/aa3b40a7ce.js" crossorigin="anonymous"></script>
+    <script src="script.js"> </script>
+</body>
+</html>
